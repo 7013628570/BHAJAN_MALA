@@ -1,0 +1,690 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhajan Mala - Bhajan, Aarathi, Mantra Lyrics in Telugu, Hindi, Marathi</title>
+<meta name="description" content="Bhajan Mala - భజన, भजन, आरती और मंत्र के बोल तेलुगु, हिंदी और मराठी में. Bhajan, Aarathi and Mantra lyrics in Telugu, Hindi and Marathi.">
+<meta name="keywords" content="bhajan, aarti, aarathi, mantra, bhajan lyrics, telugu bhajan, hindi bhajan, marathi bhajan, devotional songs">
+<meta name="robots" content="index, follow">
+<meta name="theme-color" content="#3a0d14">
+<meta property="og:title" content="Bhajan Mala">
+<meta property="og:description" content="Bhajan, Aarathi and Mantra lyrics in Telugu, Hindi and Marathi.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Bhajan Mala","description":"Bhajan, Aarathi and Mantra lyrics in Telugu, Hindi and Marathi.","inLanguage":["te","hi","mr"]}</script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Hind:wght@400;500;600&family=Noto+Sans+Telugu:wght@400;600&display=swap">
+<style>
+:root{
+  color-scheme:dark;
+  --kumkum:#3a0d14; --garbha:#24070c; --panel:#52141d; --panel-hi:#6b1d27;
+  --gold:#f2c14e; --gold-deep:#b9822a; --saffron:#ff9a3c; --heart:#ff5a6e;
+  --ink:#fdeed3; --ink-soft:#d9b9a0; --line:rgba(242,193,78,.28);
+  --display:"Yatra One","Hind","Noto Sans Telugu",system-ui,sans-serif;
+  --body:"Hind","Noto Sans Telugu","Noto Sans Devanagari",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{margin:0;
+  background:radial-gradient(90% 55% at 50% 0%, #7a1f2b 0%, transparent 70%),linear-gradient(var(--kumkum), var(--garbha));
+  background-color:var(--garbha);background-attachment:fixed;
+  color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.55;min-height:100vh}
+img{max-width:100%}
+.wrap{max-width:920px;margin:0 auto;padding-block:24px 56px;
+  padding-left:max(16px, env(safe-area-inset-left, 0px));
+  padding-right:max(16px, env(safe-area-inset-right, 0px))}
+#home{display:flex;flex-direction:column;gap:28px}
+:focus-visible{outline:2px solid var(--saffron);outline-offset:3px}
+
+/* ---------- home ---------- */
+header{display:flex;flex-direction:column;align-items:center;gap:14px;text-align:center;perspective:900px}
+.om{width:118px;height:118px;position:relative;transform-style:preserve-3d;animation:float 6s ease-in-out infinite}
+.om .ring{position:absolute;inset:0;border-radius:50%;
+  background:conic-gradient(from 0deg,var(--gold),#fff3c4,var(--gold-deep),var(--saffron),var(--gold));
+  box-shadow:0 18px 40px rgba(0,0,0,.55),0 0 46px rgba(255,154,60,.35);animation:spin 18s linear infinite}
+.om .disc{position:absolute;inset:9px;border-radius:50%;
+  background:radial-gradient(circle at 35% 28%,#8a2632,var(--garbha) 75%);
+  display:grid;place-items:center;transform:translateZ(18px);box-shadow:inset 0 0 18px rgba(0,0,0,.7)}
+.om .glyph{font-family:"Hind","Noto Sans Devanagari",serif;font-weight:600;font-size:58px;line-height:1;
+  color:var(--gold);text-shadow:0 2px 0 var(--gold-deep),0 5px 10px rgba(0,0,0,.6),0 0 22px rgba(255,154,60,.6)}
+h1{margin:0;font-family:var(--display);font-weight:400;font-size:clamp(2.3rem,9vw,4rem);letter-spacing:.06em;line-height:1.05;
+  color:var(--gold);text-wrap:balance;cursor:pointer;user-select:none;
+  text-shadow:0 1px 0 #d9a53b,0 2px 0 #c08f31,0 3px 0 #a67a28,0 4px 0 #8a6420,0 10px 18px rgba(0,0,0,.6)}
+.tag{margin:0;color:var(--ink-soft);font-size:.95rem}
+.clock{display:flex;flex-direction:column;align-items:center;gap:2px;padding:12px 22px;border-radius:16px;cursor:pointer;user-select:none;
+  background:linear-gradient(160deg,rgba(255,255,255,.08),rgba(0,0,0,.25));
+  border:1px solid var(--line);box-shadow:0 10px 24px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.12)}
+.clock .date{font-size:.95rem;color:var(--ink-soft)}
+.clock .time{font-family:var(--display);font-size:clamp(1.7rem,7vw,2.4rem);color:var(--ink);
+  font-variant-numeric:tabular-nums;letter-spacing:.04em;line-height:1.15}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;perspective:1200px}
+.card{min-width:0;border-radius:22px;padding:20px;display:flex;flex-direction:column;gap:14px;
+  background:linear-gradient(150deg,var(--panel-hi),var(--panel) 45%,#3d0f16);border:1px solid var(--line);
+  box-shadow:0 2px 0 #7d2530 inset,0 -3px 0 rgba(0,0,0,.35) inset,0 22px 34px rgba(0,0,0,.5),0 6px 0 #1b0508;
+  transform-style:preserve-3d;transition:transform .18s ease-out;will-change:transform}
+.card h2{margin:0;font-family:var(--display);font-weight:400;font-size:1.55rem;letter-spacing:.05em;color:var(--gold);
+  display:flex;align-items:center;gap:10px;transform:translateZ(26px);text-shadow:0 3px 6px rgba(0,0,0,.55)}
+.card h2 .ico{width:42px;height:42px;flex:none;border-radius:50%;display:grid;place-items:center;font-size:1.3rem;
+  font-family:var(--body);color:var(--garbha);
+  background:radial-gradient(circle at 30% 25%,#fff3c4,var(--gold) 55%,var(--gold-deep));box-shadow:0 4px 8px rgba(0,0,0,.5)}
+.opts{display:flex;flex-direction:column;gap:10px;transform:translateZ(16px)}
+.opt{font:inherit;font-weight:500;font-size:1.05rem;color:var(--ink);cursor:pointer;text-align:left;text-decoration:none;
+  padding:11px 14px;border-radius:12px;border:1px solid var(--line);
+  background:linear-gradient(180deg,rgba(255,255,255,.09),rgba(0,0,0,.22));
+  box-shadow:0 4px 0 rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.14);
+  display:flex;justify-content:space-between;align-items:center;gap:8px;transition:transform .1s,box-shadow .1s,background .15s}
+.opt::after{content:"›";color:var(--gold);font-size:1.3rem;line-height:1}
+.opt:hover{background:linear-gradient(180deg,rgba(242,193,78,.22),rgba(0,0,0,.2))}
+.opt:active{transform:translateY(3px);box-shadow:0 1px 0 rgba(0,0,0,.45),inset 0 1px 0 rgba(255,255,255,.14)}
+footer{text-align:center;color:var(--ink-soft);font-size:.85rem}
+
+/* ---------- inner page ---------- */
+#page{display:flex;flex-direction:column;gap:18px}
+.topbar{display:flex;align-items:center;gap:12px}
+.topbar h2{margin:0;flex:1;min-width:0;font-family:var(--display);font-weight:400;font-size:clamp(1.3rem,5.5vw,1.8rem);
+  color:var(--gold);overflow-wrap:anywhere;line-height:1.25;text-shadow:0 3px 6px rgba(0,0,0,.55)}
+.small-btn{appearance:none;font:inherit;font-size:.92rem;cursor:pointer;color:var(--ink);background:rgba(0,0,0,.28);
+  border:1px solid var(--line);border-radius:10px;padding:8px 14px;flex:none}
+.small-btn:hover{border-color:var(--gold);color:var(--gold)}
+.small-btn.danger{color:var(--heart)}
+.small-btn.sure{background:var(--heart);color:var(--garbha);border-color:var(--heart)}
+.sheet{border-radius:22px;padding:20px;background:linear-gradient(170deg,#481119,var(--garbha));
+  border:1px solid var(--line);box-shadow:0 24px 40px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.1);
+  display:flex;flex-direction:column;gap:16px}
+.empty{margin:0;padding:18px;border:1px dashed var(--line);border-radius:14px;color:var(--ink-soft);text-align:center}
+.rows{display:flex;flex-direction:column}
+.srow{display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--line);padding:4px 0}
+.srow:last-child{border-bottom:0}
+.srow .no{flex:none;width:2.4em;text-align:right;color:var(--ink-soft);font-variant-numeric:tabular-nums}
+.srow .stitle{flex:1;min-width:0;appearance:none;font:inherit;font-weight:600;font-size:1.08rem;color:var(--ink);
+  background:none;border:0;text-align:left;cursor:pointer;padding:12px 4px;overflow-wrap:anywhere}
+.srow .stitle:hover{color:var(--gold)}
+.heart{appearance:none;font:inherit;font-size:1.6rem;line-height:1;cursor:pointer;background:none;border:0;
+  color:var(--ink-soft);width:46px;height:46px;border-radius:50%;flex:none}
+.heart.on{color:var(--heart)}
+.lyrics{margin:0;white-space:pre-wrap;overflow-wrap:anywhere;font-family:var(--body);font-size:1.12rem;line-height:1.9}
+.sheet img{border-radius:12px;max-height:420px;object-fit:contain;align-self:flex-start}
+.sheet a{color:var(--saffron);overflow-wrap:anywhere}
+
+form{display:flex;flex-direction:column;gap:14px}
+.row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+label{display:flex;flex-direction:column;gap:6px;font-size:.82rem;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-soft);min-width:0}
+label.check{flex-direction:row;align-items:center;gap:8px;text-transform:none;letter-spacing:0;font-size:.95rem}
+label.check input{width:auto}
+label .req{color:var(--saffron)}
+input,select,textarea{font:inherit;font-size:1rem;letter-spacing:0;text-transform:none;color:var(--ink);width:100%;
+  background:rgba(0,0,0,.35);border:1px solid var(--line);border-radius:12px;padding:11px 12px}
+textarea{min-height:150px;resize:vertical;line-height:1.7}
+input[type=file]{padding:9px}
+.submit{appearance:none;font:inherit;font-family:var(--display);font-size:1.2rem;letter-spacing:.06em;cursor:pointer;
+  color:var(--garbha);border:0;border-radius:14px;padding:13px 18px;
+  background:linear-gradient(180deg,#ffe08a,var(--gold) 55%,var(--gold-deep));
+  box-shadow:0 5px 0 #7a5416,0 12px 20px rgba(0,0,0,.45);transition:transform .1s,box-shadow .1s}
+.submit:active{transform:translateY(4px);box-shadow:0 1px 0 #7a5416,0 6px 12px rgba(0,0,0,.45)}
+.submit:disabled{opacity:.6;cursor:wait}
+.note{margin:0;font-size:.9rem;color:var(--ink-soft)}
+.msg{margin:0;padding:10px 14px;border-radius:12px;background:rgba(242,193,78,.14);border:1px solid var(--gold);color:var(--ink)}
+
+/* ---------- admin ---------- */
+.tabs{display:flex;flex-wrap:wrap;gap:8px}
+.tab{appearance:none;font:inherit;cursor:pointer;color:var(--ink);background:rgba(0,0,0,.28);border:1px solid var(--line);
+  border-radius:999px;padding:8px 16px}
+.tab[aria-selected="true"]{background:var(--gold);color:var(--garbha);border-color:var(--gold);font-weight:600}
+.items{display:flex;flex-direction:column;gap:14px}
+.item{border:1px solid var(--line);border-radius:14px;background:rgba(255,255,255,.05);padding:14px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.item-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.item-head .name{flex:1;min-width:8em;font-weight:600;overflow-wrap:anywhere}
+.item .meta{margin:0;font-size:.88rem;color:var(--ink-soft);overflow-wrap:anywhere}
+.item .text{margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.actions{display:flex;flex-wrap:wrap;gap:10px}
+.accept{background:#2f7d4f;border-color:#2f7d4f;color:#fff}
+.accept:hover{color:#fff;border-color:#fff}
+
+.toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom, 0px));transform:translateX(-50%);
+  background:var(--gold);color:var(--garbha);font-weight:600;padding:10px 20px;border-radius:999px;
+  box-shadow:0 10px 24px rgba(0,0,0,.5);z-index:20;max-width:calc(100% - 32px);text-align:center}
+
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes float{0%,100%{transform:translateY(0) rotateY(-14deg)}50%{transform:translateY(-8px) rotateY(14deg)}}
+@media (max-width:600px){.grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}.card{padding:18px}.sheet{padding:16px}}
+@media (prefers-reduced-motion:reduce){.om,.om .ring{animation:none}.card{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div id="home">
+    <header>
+      <div class="om" aria-hidden="true"><div class="ring"></div><div class="disc"><span class="glyph">ॐ</span></div></div>
+      <h1 id="brand">BHAJAN MALA</h1>
+      <p class="tag">భజన · भजन · आरती · मंत्र</p>
+      <div class="clock" id="clock">
+        <span class="date" id="date">&nbsp;</span>
+        <span class="time" id="time">--:--:--</span>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section class="card" aria-labelledby="c1">
+        <h2 id="c1"><span class="ico" aria-hidden="true">♪</span>BHAJAN</h2>
+        <nav class="opts">
+          <a class="opt" href="#list-bhajan-telugu">తెలుగు</a>
+          <a class="opt" href="#list-bhajan-hindi">हिंदी</a>
+          <a class="opt" href="#list-bhajan-marathi">मराठी</a>
+        </nav>
+      </section>
+      <section class="card" aria-labelledby="c2">
+        <h2 id="c2"><span class="ico" aria-hidden="true">🪔</span>AARATHI</h2>
+        <nav class="opts">
+          <a class="opt" href="#list-aarathi-telugu">తెలుగు</a>
+          <a class="opt" href="#list-aarathi-hindi">हिंदी</a>
+          <a class="opt" href="#list-aarathi-marathi">मराठी</a>
+        </nav>
+      </section>
+      <section class="card" aria-labelledby="c3">
+        <h2 id="c3"><span class="ico" aria-hidden="true">ॐ</span>MANTRA</h2>
+        <nav class="opts">
+          <a class="opt" href="#list-mantra-telugu">తెలుగు</a>
+          <a class="opt" href="#list-mantra-hindi">हिंदी</a>
+          <a class="opt" href="#list-mantra-marathi">मराठी</a>
+        </nav>
+      </section>
+      <section class="card" aria-labelledby="c4">
+        <h2 id="c4"><span class="ico" aria-hidden="true">★</span>MORE</h2>
+        <nav class="opts">
+          <a class="opt" href="#fav">Favourite</a>
+          <a class="opt" href="#send">Send song</a>
+          <a class="opt" href="#feedback">Feedback</a>
+        </nav>
+      </section>
+    </main>
+
+    <footer>॥ हरि ॐ ॥ &nbsp; Bhajan Mala</footer>
+  </div>
+
+  <div id="page" hidden>
+    <div class="topbar">
+      <button class="small-btn" id="backBtn" type="button">← Back</button>
+      <h2 id="pageTitle"></h2>
+      <span id="pageTools"></span>
+    </div>
+    <div id="pageBody"></div>
+  </div>
+
+</div>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<!-- Clock and 3D tilt: run even if Firebase cannot load -->
+<script>
+(function(){
+  var dEl=document.getElementById("date"), tEl=document.getElementById("time");
+  function tick(){
+    var n=new Date();
+    dEl.textContent=n.toLocaleDateString("en-IN",{weekday:"long",day:"numeric",month:"long",year:"numeric"});
+    tEl.textContent=n.toLocaleTimeString("en-IN",{hour:"2-digit",minute:"2-digit",second:"2-digit",hour12:true}).toUpperCase();
+  }
+  tick(); setInterval(tick,1000);
+  if(!window.matchMedia("(prefers-reduced-motion: reduce)").matches){
+    document.querySelectorAll(".card").forEach(function(c){
+      c.addEventListener("pointermove",function(e){
+        if(e.pointerType==="touch")return;
+        var r=c.getBoundingClientRect();
+        var x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+        c.style.transform="rotateY("+(x*14)+"deg) rotateX("+(-y*14)+"deg) translateZ(8px)";
+      });
+      c.addEventListener("pointerleave",function(){c.style.transform=""});
+    });
+  }
+})();
+</script>
+
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-app.js";
+import { getAnalytics, isSupported } from "https://www.gstatic.com/firebasejs/13.2.0/firebase-analytics.js";
+import { getAuth, onAuthStateChanged, signInWithEmailAndPassword, signOut }
+  from "https://www.gstatic.com/firebasejs/13.2.0/firebase-auth.js";
+import { getDatabase, ref, onValue, push, set, remove, get, update, serverTimestamp }
+  from "https://www.gstatic.com/firebasejs/13.2.0/firebase-database.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBFRJ8CZOfQ8JZzrkayKjexQXUTy3KDR-s",
+  authDomain: "bhajan-2026.firebaseapp.com",
+  databaseURL: "https://bhajan-2026-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "bhajan-2026",
+  storageBucket: "bhajan-2026.firebasestorage.app",
+  messagingSenderId: "21216993052",
+  appId: "1:21216993052:web:426ee0895f97194c0a64d9",
+  measurementId: "G-C2FCTGJTHS"
+};
+const app = initializeApp(firebaseConfig);
+isSupported().then(ok => { if (ok) getAnalytics(app); }).catch(() => {});
+const auth = getAuth(app);
+const db = getDatabase(app);
+
+const CAT = { bhajan: "Bhajan", aarathi: "Aarathi", mantra: "Mantra" };
+const LANG = { telugu: "తెలుగు", hindi: "हिंदी", marathi: "मराठी" };
+
+/* ---------- state ---------- */
+let songs = [], songsLoaded = false, loadError = "";
+let user = null, isAdmin = false, authReady = false, adminMsg = "";
+let pendingList = [], feedbackList = [], adminUnsubs = [], adminTab = "pending";
+let query = "";
+const imgCache = {};
+
+/* Favourites live in this browser only (not in Firebase) */
+let favs = [];
+try { favs = JSON.parse(localStorage.getItem("bm_fav") || "[]"); if (!Array.isArray(favs)) favs = []; } catch (e) { favs = []; }
+function saveFavs() { try { localStorage.setItem("bm_fav", JSON.stringify(favs)); } catch (e) {} }
+
+const home = document.getElementById("home"), page = document.getElementById("page"),
+      pTitle = document.getElementById("pageTitle"), pTools = document.getElementById("pageTools"),
+      pBody = document.getElementById("pageBody"), toastEl = document.getElementById("toast");
+
+/* ---------- helpers ---------- */
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+function field(labelText, control, required) {
+  const l = el("label"); l.append(labelText);
+  if (required) l.append(" ", el("span", "req", "*"));
+  l.append(control); return l;
+}
+function select(id, map, value) {
+  const s = el("select"); s.id = id; s.required = true;
+  for (const k in map) { const o = el("option", null, map[k]); o.value = k; s.append(o); }
+  if (value && map[value]) s.value = value; return s;
+}
+function nice(err) {
+  const c = (err && err.code) || "", m = (err && err.message) || "";
+  if (/invalid-credential|wrong-password|user-not-found/.test(c)) return "Email or password is wrong.";
+  if (c.includes("invalid-email")) return "Enter a valid email address.";
+  if (c.includes("too-many-requests")) return "Too many attempts. Try again after some time.";
+  if (c.includes("operation-not-allowed")) return "Email/Password sign-in is not enabled in the Firebase console.";
+  if (/permission/i.test(c + m)) return "Permission denied. Check the Realtime Database rules.";
+  if (c.includes("network")) return "No internet connection.";
+  return m || "Something went wrong.";
+}
+let toastTimer = null;
+function toast(text) {
+  toastEl.textContent = text; toastEl.hidden = false;
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => { toastEl.hidden = true; }, 1800);
+}
+function fmtDate(ts) { return typeof ts === "number" ? new Date(ts).toLocaleString("en-IN", { dateStyle: "medium", timeStyle: "short" }) : ""; }
+function confirmClick(btn, sureText, action) {
+  btn.addEventListener("click", () => {
+    if (!btn.classList.contains("sure")) {
+      const old = btn.textContent; btn.classList.add("sure"); btn.textContent = sureText;
+      setTimeout(() => { btn.classList.remove("sure"); btn.textContent = old; }, 3500);
+      return;
+    }
+    action();
+  });
+}
+/* Keep cards the admin is editing: only add new ids and drop removed ones */
+function sync(container, list, make, emptyText) {
+  const ids = new Set(list.map(x => x.id));
+  [...container.children].forEach(c => { if (!c.dataset.id || !ids.has(c.dataset.id)) c.remove(); });
+  const have = new Set([...container.children].map(c => c.dataset.id));
+  list.forEach(x => { if (!have.has(x.id)) { const n = make(x); n.dataset.id = x.id; container.append(n); } });
+  if (!list.length) container.append(el("p", "empty", emptyText));
+}
+
+/* ---------- favourites ---------- */
+function heartBtn(id) {
+  const b = el("button", "heart"); b.type = "button";
+  const paint = () => {
+    const on = favs.includes(id);
+    b.classList.toggle("on", on); b.textContent = on ? "♥" : "♡";
+    b.setAttribute("aria-label", on ? "Remove from Favourite" : "Add to Favourite");
+    b.setAttribute("aria-pressed", String(on));
+  };
+  paint();
+  b.addEventListener("click", () => {
+    const i = favs.indexOf(id);
+    if (i >= 0) { favs.splice(i, 1); toast("Removed from Favourite"); }
+    else { favs.push(id); toast("Added in Favourite"); }
+    saveFavs(); paint();
+    if (routeName() === "fav" && i >= 0) renderRows();
+  });
+  return b;
+}
+
+/* ---------- routing ---------- */
+function routeName() { const h = location.hash.slice(1); return h.split("-")[0]; }
+function showPage(title) {
+  home.hidden = true; page.hidden = false; pTitle.textContent = title; pTools.replaceChildren(); pBody.replaceChildren();
+  window.scrollTo(0, 0);
+}
+function route() {
+  const h = decodeURIComponent(location.hash.slice(1));
+  if (!h) { page.hidden = true; home.hidden = false; return; }
+  if (h.startsWith("list-")) {
+    const [, cat, lang] = h.split("-");
+    if (!CAT[cat] || !LANG[lang]) { location.hash = ""; return; }
+    query = ""; showList(CAT[cat] + " · " + LANG[lang]);
+  }
+  else if (h === "fav") { query = ""; showList("Favourite"); }
+  else if (h.startsWith("song-")) showSong(h.slice(5));
+  else if (h === "send") showSend();
+  else if (h === "feedback") showFeedback();
+  else if (h === "admin") showAdmin();
+  else location.hash = "";
+}
+window.addEventListener("hashchange", route);
+document.getElementById("backBtn").addEventListener("click", () => {
+  const n = routeName();
+  if (n === "song" && history.length > 1) history.back(); else location.hash = "";
+});
+document.getElementById("brand").addEventListener("click", () => { location.hash = "admin"; });
+document.getElementById("clock").addEventListener("click", () => { location.hash = "admin"; });
+
+/* ---------- list page: search, S.no, title, heart ---------- */
+function currentList() {
+  const h = location.hash.slice(1);
+  if (h === "fav") return songs.filter(s => favs.includes(s.id));
+  const [, cat, lang] = h.split("-");
+  return songs.filter(s => s.cat === cat && s.lang === lang);
+}
+function showList(title) {
+  showPage(title);
+  const sheet = el("div", "sheet");
+  const q = el("input"); q.id = "q"; q.type = "search"; q.placeholder = "Search song title"; q.setAttribute("aria-label", "Search song title");
+  q.addEventListener("input", () => { query = q.value; renderRows(); });
+  const rows = el("div", "rows"); rows.id = "rows";
+  sheet.append(q, rows); pBody.append(sheet);
+  renderRows();
+}
+function renderRows() {
+  const rows = document.getElementById("rows"); if (!rows) return;
+  rows.replaceChildren();
+  if (!songsLoaded) { rows.append(el("p", "empty", "Loading…")); return; }
+  if (loadError) { rows.append(el("p", "empty", loadError)); return; }
+  const all = currentList(), isFav = routeName() === "fav";
+  const k = query.trim().toLowerCase();
+  const list = k ? all.filter(s => (s.title || "").toLowerCase().includes(k)) : all;
+  if (!all.length) { rows.append(el("p", "empty", isFav ? "No favourite songs yet. Tap ♡ beside any song to add it here." : "No songs here yet. Send one from More → Send song.")); return; }
+  if (!list.length) { rows.append(el("p", "empty", "No song title matches \"" + query.trim() + "\".")); return; }
+  list.forEach((s, i) => {
+    const r = el("div", "srow");
+    const t = el("button", "stitle", s.title); t.type = "button";
+    t.addEventListener("click", () => { location.hash = "song-" + s.id; });
+    r.append(el("span", "no", (i + 1) + "."), t, heartBtn(s.id));
+    rows.append(r);
+  });
+}
+
+/* ---------- song page: title, lyrics, image, link ---------- */
+function showSong(id) {
+  const s = songs.find(x => x.id === id);
+  if (!s) {
+    showPage("Song");
+    pBody.append(el("p", "empty", !songsLoaded ? "Loading…" : (loadError || "This song is not available.")));
+    return;
+  }
+  showPage(s.title);
+  pTools.append(heartBtn(s.id));
+  const sheet = el("div", "sheet");
+  sheet.append(el("p", "note", (CAT[s.cat] || "") + " · " + (LANG[s.lang] || "")), el("pre", "lyrics", s.lyrics || ""));
+  const imgSlot = el("div"); imgSlot.hidden = true; sheet.append(imgSlot);
+  if (s.link && /^https?:\/\//i.test(s.link)) {
+    const a = el("a", null, "Listen / watch ↗"); a.href = s.link; a.target = "_blank"; a.rel = "noopener noreferrer"; sheet.append(a);
+  }
+  pBody.append(sheet);
+  if (s.hasImg) {
+    const put = data => {
+      if (typeof data !== "string" || !data.startsWith("data:image/")) return;
+      const im = el("img"); im.src = data; im.alt = s.title; imgSlot.append(im); imgSlot.hidden = false;
+    };
+    if (imgCache[id]) put(imgCache[id]);
+    else get(ref(db, "songImages/" + id)).then(sn => { imgCache[id] = sn.val(); put(sn.val()); }).catch(() => {});
+  }
+}
+
+/* ---------- send song (goes to admin for approval) ---------- */
+function shrink(file) {
+  return new Promise(done => {
+    const r = new FileReader();
+    r.onload = () => {
+      const im = new Image();
+      im.onload = () => {
+        const m = Math.min(1, 640 / Math.max(im.width, im.height)), c = document.createElement("canvas");
+        c.width = Math.round(im.width * m); c.height = Math.round(im.height * m);
+        c.getContext("2d").drawImage(im, 0, 0, c.width, c.height);
+        done(c.toDataURL("image/jpeg", .75));
+      };
+      im.onerror = () => done("");
+      im.src = r.result;
+    };
+    r.onerror = () => done("");
+    r.readAsDataURL(file);
+  });
+}
+function showSend() {
+  showPage("Send song");
+  const f = el("form", "sheet"), row = el("div", "row");
+  const cat = select("sCat", CAT), lang = select("sLang", LANG);
+  row.append(field("Category", cat, true), field("Subcategory", lang, true));
+  const title = el("input"); title.id = "sTitle"; title.required = true; title.maxLength = 150;
+  const lyr = el("textarea"); lyr.id = "sLyrics"; lyr.required = true; lyr.maxLength = 20000;
+  const img = el("input"); img.id = "sImage"; img.type = "file"; img.accept = "image/*";
+  const link = el("input"); link.id = "sLink"; link.type = "url"; link.placeholder = "https://";
+  const btn = el("button", "submit", "SUBMIT"); btn.type = "submit";
+  const msg = el("p", "msg"); msg.hidden = true;
+  f.append(row, field("Title", title, true), field("Lyrics", lyr, true), field("Image (optional)", img), field("Link (optional)", link), btn, msg,
+    el("p", "note", "Your song is shown on the website after admin approval."));
+  f.addEventListener("submit", async e => {
+    e.preventDefault();
+    if (!title.value.trim() || !lyr.value.trim()) { msg.textContent = "Title and Lyrics are compulsory."; msg.hidden = false; return; }
+    btn.disabled = true; msg.hidden = true;
+    try {
+      let url = link.value.trim(); if (url && !/^https?:\/\//i.test(url)) url = "";
+      const data = img.files && img.files[0] ? await shrink(img.files[0]) : "";
+      const rec = { cat: cat.value, lang: lang.value, title: title.value.trim(), lyrics: lyr.value.trim(), link: url, at: serverTimestamp() };
+      if (data) rec.img = data;
+      await set(push(ref(db, "pending")), rec);
+      msg.textContent = "Song sent for admin approval.";
+      title.value = ""; lyr.value = ""; img.value = ""; link.value = "";
+    } catch (er) { msg.textContent = nice(er); }
+    msg.hidden = false; btn.disabled = false;
+  });
+  pBody.append(f);
+}
+
+/* ---------- feedback (all fields compulsory) ---------- */
+function showFeedback() {
+  showPage("Feedback");
+  const f = el("form", "sheet");
+  const name = el("input"); name.id = "fName"; name.required = true; name.maxLength = 60; name.autocomplete = "name";
+  const mobile = el("input"); mobile.id = "fMobile"; mobile.type = "tel"; mobile.required = true; mobile.inputMode = "numeric";
+  mobile.pattern = "[0-9]{10}"; mobile.maxLength = 10; mobile.title = "10 digit mobile number"; mobile.autocomplete = "tel-national";
+  const email = el("input"); email.id = "fEmail"; email.type = "email"; email.required = true; email.maxLength = 120; email.autocomplete = "email";
+  const text = el("textarea"); text.id = "fText"; text.required = true; text.maxLength = 5000;
+  const btn = el("button", "submit", "SUBMIT"); btn.type = "submit";
+  const msg = el("p", "msg"); msg.hidden = true;
+  f.append(field("Name", name, true), field("Mobile", mobile, true), field("Email", email, true), field("Feedback", text, true), btn, msg);
+  f.addEventListener("submit", async e => {
+    e.preventDefault();
+    if (!name.value.trim() || !text.value.trim()) { msg.textContent = "All fields are compulsory."; msg.hidden = false; return; }
+    btn.disabled = true; msg.hidden = true;
+    try {
+      await set(push(ref(db, "feedback")), { name: name.value.trim(), mobile: mobile.value.trim(), email: email.value.trim(), text: text.value.trim(), at: serverTimestamp() });
+      msg.textContent = "Thank you. Your feedback was sent.";
+      name.value = ""; mobile.value = ""; email.value = ""; text.value = "";
+    } catch (er) { msg.textContent = nice(er); }
+    msg.hidden = false; btn.disabled = false;
+  });
+  pBody.append(f);
+}
+
+/* ---------- admin ---------- */
+function showAdmin() {
+  if (!authReady) { showPage("Admin"); pBody.append(el("p", "empty", "Loading…")); return; }
+  if (!isAdmin) { showAdminLogin(); return; }
+  showPage("Admin");
+  const out = el("button", "small-btn", "Logout"); out.type = "button";
+  out.addEventListener("click", () => signOut(auth));
+  pTools.append(out);
+  const tabs = el("div", "tabs"); tabs.id = "adminTabs"; tabs.setAttribute("role", "tablist");
+  const box = el("div", "items"); box.id = "adminBox";
+  pBody.append(el("div", "sheet")); pBody.firstChild.append(tabs, box);
+  paintTabs(); fillAdmin(true);
+}
+function paintTabs() {
+  const tabs = document.getElementById("adminTabs"); if (!tabs) return;
+  tabs.replaceChildren();
+  [["pending", "Pending (" + pendingList.length + ")"], ["published", "Published (" + songs.length + ")"], ["feedback", "Feedback (" + feedbackList.length + ")"]]
+    .forEach(([k, label]) => {
+      const b = el("button", "tab", label); b.type = "button"; b.setAttribute("role", "tab"); b.setAttribute("aria-selected", String(adminTab === k));
+      b.addEventListener("click", () => { adminTab = k; paintTabs(); fillAdmin(true); });
+      tabs.append(b);
+    });
+}
+function fillAdmin(reset) {
+  const box = document.getElementById("adminBox"); if (!box) return;
+  if (reset) box.replaceChildren();
+  if (adminTab === "pending") sync(box, pendingList, pendingCard, "No songs waiting for approval.");
+  else if (adminTab === "published") sync(box, songs, publishedCard, "No published songs yet.");
+  else sync(box, feedbackList, feedbackCard, "No feedback yet.");
+}
+function refreshAdmin() { if (routeName() === "admin" && isAdmin) { paintTabs(); fillAdmin(false); } }
+
+function songFields(s) {
+  const wrap = el("div"); wrap.style.cssText = "display:flex;flex-direction:column;gap:12px";
+  const row = el("div", "row");
+  const cat = select("eCat" + s.id, CAT, s.cat), lang = select("eLang" + s.id, LANG, s.lang);
+  row.append(field("Category", cat), field("Subcategory", lang));
+  const title = el("input"); title.id = "eTitle" + s.id; title.value = s.title || ""; title.maxLength = 150;
+  const lyr = el("textarea"); lyr.id = "eLyr" + s.id; lyr.value = s.lyrics || ""; lyr.maxLength = 20000;
+  const link = el("input"); link.id = "eLink" + s.id; link.type = "url"; link.value = s.link || ""; link.placeholder = "https://";
+  wrap.append(row, field("Title", title), field("Lyrics", lyr), field("Link", link));
+  const read = () => {
+    let url = link.value.trim(); if (url && !/^https?:\/\//i.test(url)) url = "";
+    return { cat: cat.value, lang: lang.value, title: title.value.trim(), lyrics: lyr.value.trim(), link: url };
+  };
+  return { wrap, read };
+}
+function pendingCard(s) {
+  const card = el("div", "item");
+  card.append(el("p", "meta", "Received " + fmtDate(s.at)));
+  const f = songFields(s); card.append(f.wrap);
+  let keepImg = null;
+  const hasImg = typeof s.img === "string" && s.img.startsWith("data:image/");
+  if (hasImg) {
+    const im = el("img"); im.src = s.img; im.alt = "Submitted image"; im.style.cssText = "max-height:220px;border-radius:10px;align-self:flex-start";
+    keepImg = el("input"); keepImg.type = "checkbox"; keepImg.checked = true; keepImg.id = "eImg" + s.id;
+    const l = el("label", "check"); l.append(keepImg, "Publish this image");
+    card.append(im, l);
+  }
+  const msg = el("p", "msg"); msg.hidden = true;
+  const actions = el("div", "actions");
+  const ok = el("button", "small-btn accept", "Accept"); ok.type = "button";
+  const no = el("button", "small-btn danger", "Reject"); no.type = "button";
+  ok.addEventListener("click", async () => {
+    const v = f.read();
+    if (!v.title || !v.lyrics) { msg.textContent = "Title and Lyrics are compulsory."; msg.hidden = false; return; }
+    const withImg = !!(hasImg && keepImg && keepImg.checked);
+    const up = {};
+    up["songs/" + s.id] = { ...v, hasImg: withImg, at: typeof s.at === "number" ? s.at : serverTimestamp() };
+    if (withImg) up["songImages/" + s.id] = s.img;
+    up["pending/" + s.id] = null;
+    ok.disabled = true;
+    try { await update(ref(db), up); toast("Song accepted"); }
+    catch (er) { msg.textContent = nice(er); msg.hidden = false; ok.disabled = false; }
+  });
+  confirmClick(no, "Tap again to reject", () => {
+    remove(ref(db, "pending/" + s.id)).then(() => toast("Song rejected")).catch(er => { msg.textContent = nice(er); msg.hidden = false; });
+  });
+  actions.append(ok, no); card.append(actions, msg);
+  return card;
+}
+function publishedCard(s) {
+  const card = el("div", "item"), head = el("div", "item-head");
+  const name = el("span", "name", s.title);
+  const edit = el("button", "small-btn", "Edit"); edit.type = "button";
+  const del = el("button", "small-btn danger", "Delete"); del.type = "button";
+  head.append(name, edit, del);
+  const meta = el("p", "meta", (CAT[s.cat] || "") + " · " + (LANG[s.lang] || ""));
+  const body = el("div"); body.hidden = true; body.style.cssText = "display:flex;flex-direction:column;gap:12px";
+  const msg = el("p", "msg"); msg.hidden = true;
+  let f = null;
+  edit.addEventListener("click", () => {
+    if (!f) {
+      f = songFields(s);
+      const save = el("button", "small-btn accept", "Save"); save.type = "button"; save.style.alignSelf = "flex-start";
+      save.addEventListener("click", async () => {
+        const v = f.read();
+        if (!v.title || !v.lyrics) { msg.textContent = "Title and Lyrics are compulsory."; msg.hidden = false; return; }
+        try {
+          await update(ref(db, "songs/" + s.id), v);
+          name.textContent = v.title; meta.textContent = CAT[v.cat] + " · " + LANG[v.lang];
+          msg.hidden = true; body.hidden = true; toast("Song saved");
+        } catch (er) { msg.textContent = nice(er); msg.hidden = false; }
+      });
+      body.append(f.wrap, save);
+    }
+    body.hidden = !body.hidden;
+  });
+  confirmClick(del, "Tap again to delete", () => {
+    const up = {}; up["songs/" + s.id] = null; up["songImages/" + s.id] = null;
+    update(ref(db), up).then(() => toast("Song deleted")).catch(er => { msg.textContent = nice(er); msg.hidden = false; });
+  });
+  card.append(head, meta, body, msg);
+  return card;
+}
+function feedbackCard(fb) {
+  const card = el("div", "item"), head = el("div", "item-head");
+  const del = el("button", "small-btn danger", "Delete"); del.type = "button";
+  head.append(el("span", "name", fb.name || "(no name)"), del);
+  confirmClick(del, "Tap again to delete", () => { remove(ref(db, "feedback/" + fb.id)).catch(() => {}); });
+  card.append(head,
+    el("p", "meta", "Mobile: " + (fb.mobile || "-") + "  ·  Email: " + (fb.email || "-")),
+    el("p", "meta", fmtDate(fb.at)),
+    el("p", "text", fb.text || ""));
+  return card;
+}
+function showAdminLogin() {
+  showPage("Admin login");
+  const f = el("form", "sheet");
+  const email = el("input"); email.id = "aEmail"; email.type = "email"; email.required = true; email.autocomplete = "username";
+  const pass = el("input"); pass.id = "aPass"; pass.type = "password"; pass.required = true; pass.autocomplete = "current-password";
+  const btn = el("button", "submit", "LOGIN"); btn.type = "submit";
+  const msg = el("p", "msg", adminMsg); msg.hidden = !adminMsg;
+  f.append(field("Email", email, true), field("Password", pass, true), btn, msg);
+  f.addEventListener("submit", e => {
+    e.preventDefault(); btn.disabled = true; adminMsg = ""; msg.hidden = true;
+    signInWithEmailAndPassword(auth, email.value.trim(), pass.value)
+      .catch(er => { msg.textContent = nice(er); msg.hidden = false; })
+      .finally(() => { btn.disabled = false; });
+  });
+  pBody.append(f);
+}
+
+/* ---------- live data ---------- */
+function toList(snap) { const a = []; snap.forEach(c => { const v = c.val(); if (v && typeof v === "object") a.push({ id: c.key, ...v }); }); return a; }
+
+onValue(ref(db, "songs"), snap => {
+  songs = toList(snap).filter(s => s.title).sort((a, b) => (a.at || 0) - (b.at || 0));
+  songsLoaded = true; loadError = "";
+  const n = routeName();
+  if (n === "list" || n === "fav") renderRows();
+  else if (n === "song") showSong(decodeURIComponent(location.hash.slice(6)));
+  refreshAdmin();
+}, err => { loadError = nice(err); songsLoaded = true; renderRows(); });
+
+onAuthStateChanged(auth, async u => {
+  adminUnsubs.forEach(fn => fn()); adminUnsubs = []; pendingList = []; feedbackList = [];
+  user = u; isAdmin = false;
+  if (u) {
+    try { isAdmin = (await get(ref(db, "admins/" + u.uid))).val() === true; } catch (e) { isAdmin = false; }
+    if (!isAdmin) { adminMsg = "This account is not an admin."; await signOut(auth); return; }
+    adminMsg = "";
+    adminUnsubs.push(onValue(ref(db, "pending"), s => { pendingList = toList(s).sort((a, b) => (a.at || 0) - (b.at || 0)); refreshAdmin(); }, () => {}));
+    adminUnsubs.push(onValue(ref(db, "feedback"), s => { feedbackList = toList(s).sort((a, b) => (b.at || 0) - (a.at || 0)); refreshAdmin(); }, () => {}));
+  }
+  authReady = true;
+  if (routeName() === "admin") showAdmin();
+});
+
+route();
+</script>
+</body>
+</html>
